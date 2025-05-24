@@ -1,0 +1,7 @@
+defaultConfig {
+    applicationId "cvoyage-bd63e" // 👈 Remplace par ton propre ID
+    minSdkVersion 19                  // ✅ minSdkVersion doit être au moins 19
+    targetSdkVersion 34               // ✅ Peut être adapté selon le SDK Flutter installé
+    versionCode flutterVersionCode.toInteger()
+    versionName flutterVersionName
+}
